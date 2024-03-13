@@ -23,4 +23,4 @@ steps:
     tasks: 'build'
 - task: PublishBuildArtifacts@1
   inputs:
-    pathToPublish: '$(System.DefaultWorkingDirectory)/build/libs/commons.jar'
+    pathToPublish: '$(System.DefaultWorkingDirectory)'
